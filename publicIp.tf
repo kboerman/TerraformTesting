@@ -3,5 +3,5 @@ resource "azurerm_public_ip_prefix" "KBPublic" {
   location            = var.location
   resource_group_name = azurerm_resource_group.net.name
 
-  prefix_length = 31
+  prefix_length = 29
 }
