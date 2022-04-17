@@ -9,5 +9,5 @@ resource "azurerm_subnet" "NL-Subnet-Test" {
   name                 = "TestSubnet"
   resource_group_name  = azurerm_resource_group.net.name
   virtual_network_name = azurerm_virtual_network.TestVnet.name
-  address_prefixes     = ["10.0.11.0/24"]
+  address_prefixes     = ["192.168.1.0/24"]
 }
